@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	chars := input.ReadInput()
+	chars := input.ReadFakeInput()
 
 	for j := 0; j < len(chars); j++ {
 		fmt.Printf("%c", chars[j])
